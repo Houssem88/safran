@@ -1,0 +1,116 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+input{
+	border-radius: 5px;
+	border: 1px solid #000;
+	outline: none;
+	height: 25px;
+	padding-left: 5px;
+}
+
+input[type="password"], input[type="password"]{
+
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/*ERRORS*/
+.error-bloc{
+	width: 500px ;
+	height: auto;
+	margin: 10px auto;
+	background-color: red !important;
+	color:#FFF;
+}
+
+.menu-bloc{
+	/*position: fixed;*/
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #000;
+}
+
+.menu-wrapper{
+	width: 75%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.menu-logo-bloc{
+	display: block;
+	position: relative;
+	width: 85px;
+	height: 100%;
+	background-color: blue;
+	float: left;
+}
+
+.navigation-menu{
+	height: 100%;
+	margin:0px;
+	padding: 0px;
+	text-align: right;
+}
+
+.menu-item{
+	display: inline-block;
+	line-height: 45px;
+	margin-left:15px;
+}
+
+.menu-item a{
+	text-decoration: none;
+	color:#000;
+}
+
+.truc{
+	height: 5000px;
+}
+
+/*Registration*/
+.form_registration, .login-form{
+	width: 200px;
+	margin: 100px auto;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*/					/* VERSION MOBILE (responsive) */							/*/
+
+/*--------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px){
+	.menu-desktop{
+		display: none;
+	}
+
+	.menu-mobile{
+		display: block !important;
+		width: 100%;
+		height: 50px;
+		background-color: #E0E0E0;
+	}
+}
+
+
+.menu-logo-bloc{
+	background-color: red;
+}
+
+.label_registration{
+	display: none;
+}
+
+.menu-item a{
+	color: gold;
+}
